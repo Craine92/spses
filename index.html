@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Schere Stein Papier</title> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container"> 
+        <h2>Spieler: <span id="player-choice"></span></h2>
+        <h2>Computer: <span id="computer-choice"></span></h2>
+        <h2>Ergebnis: <span id="result"></span></h2>
+
+        <button id="schere">Schere</button>
+        <button id="stein">Stein</button>
+        <button id="papier">Papier</button>
+        <button id="echse">Echse</button>
+        <button id="spock">Spock</button>
+    </div>
+
+    <div class="spielregeln">
+        <h3>Spielregeln:</h3>
+        <p>
+
+            Schere, Stein, Papier, Echse, Spock. Die Regeln sind wie folgt:
+        </p>
+        <ul>
+            <li>Schere schneidet Papier</li>
+            <li>Papier bedeckt Stein</li>
+            <li>Stein zerquetscht Echse</li>
+            <li>Echse vergiftet Spock</li>
+            <li>Spock zertrümmert Schere</li>
+            <li>Schere köpft Echse</li>
+            <li>Echse frisst Papier</li>
+            <li>Papier wiederlegt Spock</li>
+            <li>Spock verdampft Stein</li>
+            <li>Stein schleift Schere</li>
+            <li>Wenn beide Spieler dasselbe wählen, endet das Spiel unentschieden.</li>
+        </ul>
+        <p>Drücke eine der fünf Buttons, um deine Wahl zu treffen und gegen den Computer anzutreten!</p>
+    </div>
+
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
